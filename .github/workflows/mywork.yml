@@ -15,5 +15,5 @@ jobs:
           version: latest
       - run: supabase init
       - run: supabase db start
-      - run: supabase link --project-ref ${{ secrets.PROJECT_ID }}
+      - run: supabase link --project-ref ${{ supabase }}
       - run: supabase db push
