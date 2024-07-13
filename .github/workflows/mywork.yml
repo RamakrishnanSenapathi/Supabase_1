@@ -15,5 +15,5 @@ jobs:
           version: latest
       - run: supabase init
       - run: supabase db start
-      - run: supabase link --project-ref ${{ supabase }}
+      - run: supabase link --project-ref ${{ njiktnkizyysjftgrgmp }}
       - run: supabase db push
